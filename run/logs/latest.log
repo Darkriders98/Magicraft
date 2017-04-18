@@ -1,0 +1,88 @@
+[23:05:24] [Client thread/INFO]: Setting user: Player734
+[23:05:42] [Client thread/WARN]: Skipping bad option: lastServer:
+[23:05:42] [Client thread/INFO]: LWJGL Version: 2.9.4
+[23:05:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicraft
+[23:06:21] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:06:23] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[23:06:23] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:06:25] [Thread-8/INFO]: OpenAL initialized.
+[23:06:25] [Sound Library Loader/INFO]: Sound engine started
+[23:06:48] [Client thread/INFO]: Created: 16x16 textures-atlas
+[23:06:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicraft
+[23:07:06] [Client thread/INFO]: SoundSystem shutting down...
+[23:07:06] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:07:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:07:06] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[23:07:06] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:07:06] [Thread-10/INFO]: OpenAL initialized.
+[23:07:07] [Sound Library Loader/INFO]: Sound engine started
+[23:07:26] [Client thread/INFO]: Created: 512x512 textures-atlas
+[23:07:30] [Client thread/WARN]: Skipping bad option: lastServer:
+[23:07:37] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:07:41] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[23:07:41] [Server thread/INFO]: Generating keypair
+[23:07:56] [Server thread/INFO]: Preparing start region for level 0
+[23:07:57] [Server thread/WARN]: Tried to add entity Item but it was marked as removed already
+[23:07:57] [Server thread/INFO]: Preparing spawn area: 52%
+[23:07:58] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:08:01] [Server thread/INFO]: Player734[local:E:431000c5] logged in with entity id 1 at (-993.8510041594686, 56.0, 184.17712268370258)
+[23:08:01] [Server thread/INFO]: Player734 joined the game
+[23:08:05] [Server thread/INFO]: Saving and pausing game...
+[23:08:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:08:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:08:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:08:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2778ms behind, skipping 55 tick(s)
+[23:08:07] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@40f95fe9[id=3f66a67c-db6c-36b7-b762-d7a40c17883b,name=Player734,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3060) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:131) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
+[23:08:09] [Server thread/INFO]: Saving and pausing game...
+[23:08:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:08:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:08:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:08:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3927ms behind, skipping 78 tick(s)
+[23:08:31] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:31] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:32] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:32] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:33] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:34] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:34] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:34] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:34] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:37] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:37] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:38] [Client thread/INFO]: [CHAT] mgcraft:staff, mgcraft:arcane_element, mgcraft:fire_element, mgcraft:life_element, mgcraft:frost_element, mgcraft:water_element, mgcraft:earth_element, mgcraft:lightning_element, mgcraft:shield_element
+[23:08:38] [Server thread/INFO]: [Player734: Given [item.fire_element.name] * 1 to Player734]
+[23:08:38] [Client thread/INFO]: [CHAT] Given [item.fire_element.name] * 1 to Player734
+[23:08:44] [Server thread/INFO]: Saving and pausing game...
+[23:08:44] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:08:44] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:08:44] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:08:44] [Server thread/INFO]: Stopping server
+[23:08:44] [Server thread/INFO]: Saving players
+[23:08:44] [Server thread/INFO]: Saving worlds
+[23:08:44] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:08:45] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:08:45] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:08:47] [Client thread/INFO]: Stopping!
+[23:08:47] [Client thread/INFO]: SoundSystem shutting down...
+[23:08:48] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

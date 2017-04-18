@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mgcraft",
+  "name": "Magicraft",
+  "description": "An experimentation spell casting inspired by the video game magicka",
+  "version": "1.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Darkriders98"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
