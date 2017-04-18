@@ -11,25 +11,19 @@ import net.Darkriders98.Magicraft.utils.*;
 
 public class ModItems {
 	
-	public ModItems(){
-		InitItems();
-		RegisterItems();
-		RegisterRenders();
-	}
+	public static Item fire_element;
+	public static Item water_element;
+	public static Item earth_element;
+	public static Item lightning_element;
+	public static Item life_element;
+	public static Item arcane_element;
+	public static Item frost_element;
+	public static Item shield_element;
+	public static Item steam_element;
+	public static Item ice_element;
+	public static Item staff;
 	
-	public Item fire_element;
-	public Item water_element;
-	public Item earth_element;
-	public Item lightning_element;
-	public Item life_element;
-	public Item arcane_element;
-	public Item frost_element;
-	public Item shield_element;
-	public Item steam_element;
-	public Item ice_element;
-	public Item staff;
-	
-	public void InitItems(){
+	public static void InitItems(){
 		fire_element = new Item().setRegistryName("fire_element").setUnlocalizedName("fire_element");
 		water_element = new Item().setRegistryName("water_element").setUnlocalizedName("water_element");
 		earth_element = new Item().setRegistryName("earth_element").setUnlocalizedName("earth_element");
@@ -42,7 +36,7 @@ public class ModItems {
 		
 	}
 
-	public void RegisterItems(){
+	public static void RegisterItems(){
 		registerItem(fire_element);
 		registerItem(water_element);
 		registerItem(earth_element);
@@ -55,23 +49,23 @@ public class ModItems {
 	}
 	
 	@SideOnly(Side.CLIENT)
-	public void RegisterRenders(){
+	public  static void RegisterRenders(){
 		registerRender(staff, 0);
-		registerRender(fire_element, 1);
-		registerRender(water_element, 2);
-		registerRender(earth_element, 3);
-		registerRender(lightning_element, 4);
-		registerRender(life_element, 5);
-		registerRender(frost_element, 6);
-		registerRender(arcane_element, 7);
-		registerRender(shield_element, 8);
+		registerRender(fire_element, 0);
+		registerRender(water_element, 0);
+		registerRender(earth_element, 0);
+		registerRender(lightning_element, 0);
+		registerRender(life_element, 0);
+		registerRender(frost_element, 0);
+		registerRender(arcane_element, 0);
+		registerRender(shield_element, 0);
 	}
 	
-	private void registerItem(Item item){
+	private static void registerItem(Item item){
 		GameRegistry.register(item);
 	}
 	
-	private void registerRender(Item item,int meta){
+	private static void registerRender(Item item,int meta){
 		ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(new ResourceLocation(References.MODID, item.getUnlocalizedName().substring(5)), "inventory"));		
 	}
 }

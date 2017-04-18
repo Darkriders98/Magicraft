@@ -1,9 +1,11 @@
 package net.Darkriders98.Magicraft;
 
-import net.minecraftforge.fml.common.*;
 import net.Darkriders98.Magicraft.utils.*;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.SidedProxy;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.Darkriders98.Magicraft.proxy.*;
-import net.minecraftforge.fml.common.event.*;
 
 @Mod(modid = References.MODID, name = References.NAME, version = References.VERSION)
 

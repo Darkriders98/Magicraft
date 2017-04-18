@@ -5,7 +5,8 @@ import net.Darkriders98.Magicraft.init.ModItems;
 public class CommonProxy {
 
 	public void preInit(){
-		new ModItems();	
+		ModItems.InitItems();
+		ModItems.RegisterItems();
 	}
 	
 	public void Init(){
