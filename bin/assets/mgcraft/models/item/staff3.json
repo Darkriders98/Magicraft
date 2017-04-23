@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "mgcraft:items/fire_element"
+        "layer0": "mgcraft:items/staff_earth"
     }
 }
